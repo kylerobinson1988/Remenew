@@ -37,6 +37,9 @@
 		9127AF121B6EAD8A005FB1CF /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127AF101B6EAD8A005FB1CF /* Fabric.framework */; };
 		9127AF131B6EAD8A005FB1CF /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127AF111B6EAD8A005FB1CF /* Crashlytics.framework */; };
 		9127AF151B6EB4C0005FB1CF /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9127AF141B6EB4C0005FB1CF /* Keys.swift */; };
+		9127AF171B6FB9C8005FB1CF /* RadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9127AF161B6FB9C8005FB1CF /* RadiusView.swift */; };
+		9127AF191B6FC9D5005FB1CF /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9127AF181B6FC9D5005FB1CF /* GroupViewController.swift */; };
+		9127AF1B1B6FCBED005FB1CF /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9127AF1A1B6FCBED005FB1CF /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,9 @@
 		9127AF101B6EAD8A005FB1CF /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Remenew.xcodeproj/Fabric.framework; sourceTree = "<group>"; };
 		9127AF111B6EAD8A005FB1CF /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Remenew.xcodeproj/Crashlytics.framework; sourceTree = "<group>"; };
 		9127AF141B6EB4C0005FB1CF /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		9127AF161B6FB9C8005FB1CF /* RadiusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiusView.swift; sourceTree = "<group>"; };
+		9127AF181B6FC9D5005FB1CF /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		9127AF1A1B6FCBED005FB1CF /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +230,7 @@
 		9127AF071B6EA2A9005FB1CF /* HostMenuFlow */ = {
 			isa = PBXGroup;
 			children = (
+				9127AF181B6FC9D5005FB1CF /* GroupViewController.swift */,
 			);
 			name = HostMenuFlow;
 			path = ..;
@@ -235,6 +242,8 @@
 				9127AF0B1B6EA4F8005FB1CF /* Existence-Light.ttf */,
 				9127AF091B6EA3D9005FB1CF /* Rounded Elegance.ttf */,
 				9127AF0D1B6EA5A7005FB1CF /* OutlineButton.swift */,
+				9127AF161B6FB9C8005FB1CF /* RadiusView.swift */,
+				9127AF1A1B6FCBED005FB1CF /* CircleButton.swift */,
 			);
 			name = "Custom Elements";
 			sourceTree = "<group>";
@@ -359,8 +368,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9127AF171B6FB9C8005FB1CF /* RadiusView.swift in Sources */,
 				9127AEEC1B6EA0FF005FB1CF /* OrderSingleton.swift in Sources */,
 				9127AEE61B6E9F65005FB1CF /* MenuOverviewViewController.swift in Sources */,
+				9127AF1B1B6FCBED005FB1CF /* CircleButton.swift in Sources */,
+				9127AF191B6FC9D5005FB1CF /* GroupViewController.swift in Sources */,
 				9127AEE81B6E9F82005FB1CF /* MenuDetailViewController.swift in Sources */,
 				9127AEEA1B6E9FF5005FB1CF /* ItemDetailViewController.swift in Sources */,
 				9127AEC51B6E9EFF005FB1CF /* WelcomeViewController.swift in Sources */,
@@ -573,6 +585,7 @@
 				9127AEDE1B6E9EFF005FB1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9127AEDF1B6E9EFF005FB1CF /* Build configuration list for PBXNativeTarget "RemenewTests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +594,7 @@
 				9127AEE11B6E9EFF005FB1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
